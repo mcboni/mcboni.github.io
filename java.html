@@ -12,8 +12,11 @@
 <body>
      <!---Paragraph to display name-->
     <p id="name_output"></p>
+
+ <!---Paragraph to display courses-->
+    <p id=array_output></p>
     
-  <!---Paragraph to display odd numbers-->
+   <!---Paragraph to display odd numbers-->
     <p id=script_output></p>
     
 
@@ -39,9 +42,16 @@
         document.getElementById("script_output").innerHTML = oddNumbers;
         
                                                
-       //Statment to display course name
-         document.getElementById("name_output").innerHTML = name;                                      
+       //Statment to display course name in paragraph with id name_output
+         document.getElementById("name_output").innerHTML = name;  
+        
+        
+        // for loop to display courses in paragraph with id array_output
+         for(i in courses)  {
+            document.getElementById("array_output").innerHTML = courses;  
+         }                                  
     </script>
 
 
 </body>
+</html>
