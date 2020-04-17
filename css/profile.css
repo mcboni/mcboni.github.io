@@ -1,0 +1,176 @@
+body,
+html {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+
+.top-section{
+    background-color:  #2A166F;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    
+}
+.top-text{
+    color: #ffff;
+    margin-top: 1em;
+   
+}
+
+#pic{
+    vertical-align: middle;
+    width:17.5em;
+    height: 17.5em;
+    border-radius: 50%;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.btn3 {
+
+    background-color: #F9C234;
+    width: 13.5em;
+    border-radius: 2.5em;
+    height: 4.5em;
+    font-weight: 700;
+     border: none;
+     color: #ffff;
+
+}
+
+
+.bottom-section{
+    background-color:  #F9C234;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    
+}
+
+.second-section{
+    margin-top: 5em;
+}
+
+#icon{
+    border-radius: 50%;
+    width:3em;
+    height: 3em;
+    margin-top: -.9em;
+  
+}
+#abt{
+    display: inline;
+    font-weight: 700;
+}
+
+#abt_des{
+    margin-top: 1.5em;
+}
+
+#project{
+    margin-left: 4em;
+}
+
+#gps{
+    width: 20%;
+    margin-top: .5em;
+    margin-left: 0em;
+}
+
+#car{
+    width: 20%;
+    margin-top: .5em;
+    margin-left: 0em;
+}
+#wine{
+    width: 20%;
+    margin-top: .5em;
+    margin-left: 0em;
+}
+
+#bike{
+    width: 20%;
+    margin-top: .5em;
+    margin-left: 0em;
+}
+
+
+.card1 {
+    max-width: 15em;
+  
+    margin: .2em;
+    height: 9.7em;
+    background: rgba(255, 252, 252, 0.99);
+    box-shadow: 0px 4px 70px #00000012;
+    border-radius: .625em;
+}
+.subscribe1{
+    background-color:  #2A166F; 
+    border: none;
+    color: #ffff;
+}
+.subscribe2{
+    background-color:  #2A166F; 
+    border: none;
+    color: #ffff;
+}
+.subscribe3{
+    background-color:  #2A166F; 
+    border: none;
+    color: #ffff;
+}
+
+.subscribe4{
+    background-color:  #2A166F; 
+    border: none;
+    color: #ffff;
+}
+
+#personal{
+   margin-top: 1.5em;
+}
+
+
+.name{
+    margin-top: 1.5em;
+}
+
+
+.mail{
+    margin-top: 1.5em;
+}
+
+.user{
+    margin-top: 1.5em;
+}
+#contact1{
+	color: #ffff;
+	transform: translate(0%, 110%);
+	font-size: 35px;
+	margin-bottom: 80px;
+}
+
+#contact2{
+	color: #ffff;
+}
+
+#frm{
+	margin-left: 5px;
+}
+
+.form-control{
+	width: 350px;
+}
+
+.form-section{
+    margin-left: 22em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+#submit{
+    margin-left: 8em;
+    background-color:  #2A166F; 
+    color: #ffff;
+}
