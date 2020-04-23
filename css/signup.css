@@ -1,0 +1,90 @@
+body,html{
+    overflow-x: hidden;
+}
+
+#piggy{
+    margin-left: 6em;
+}
+.main_title{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+   
+}
+#frm{
+    background-color: white;
+    height: 49em;
+    margin-top: 3em;
+    border-radius: 1em 1em 1em 0em;
+    padding-top: 2em;
+    
+}
+.form-group{
+    margin-left:2.2em;
+}
+
+.whole{
+    background-color: #ADD8E6;
+    height: 65em;
+    
+    
+}
+
+.form-control{
+    background-color: #e2e8f0;
+    max-width: 19em;
+    margin-left: 0em;
+    height: 3em;
+    border: 0 solid #e2e8f0;
+}
+
+
+
+.form{
+    max-width: 26em;
+    padding:0em;
+    margin-top: 2em;
+}
+
+.bow{
+    justify-content: center;
+}
+
+.account{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #083e9e;
+}
+
+.welcome{
+    color: #4a5568;;
+}
+
+#submit{
+  
+    border: none;
+    background-color: rgb(8, 62, 158);
+    color: white;
+    font-weight: 700;
+    margin-left: 2em;
+    min-width: 19em;
+    height: 3.5em;
+    margin-top: 1em;
+    border-radius: 1em 1em 1em 0em;
+  
+}
+.check{
+    margin-top: 2em;
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #949aa1;
+    text-decoration: none;
+}
+
