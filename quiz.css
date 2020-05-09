@@ -16,14 +16,14 @@
   .container {
     width: 500px;
     max-width: 60%;
-    background-color:#F9C234;;
+    background-color:yellow;
     border-radius: 10px;
     padding: 10px;
     box-shadow: 5px 0 10px 2px #DFDFDF;
   }
 
   .container:hover{
-    box-shadow: 5px 0 10px 8px #2A166F;
+    box-shadow: 5px 0 10px 8px blue;
   }
   
   .btn-grid {
@@ -35,7 +35,7 @@
   .btn {
     --hue: var(--hue-neutral);
     border: grey;
-    background-color: #2A166F;
+    background-color: blue;
     border-radius: 5px;
     padding: 5px 10px;
     color: white;
@@ -54,7 +54,7 @@
     background-color: red;
   }
   
-  .start-btn, .next-btn {
+  .start-btn, .next-btn, .end-btn{
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
