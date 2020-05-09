@@ -38,13 +38,14 @@ const myQuizQuestions = [
 
 
 const startButton = document.getElementById('start-btn')
+const EndButton = document.getElementById('end-btn')
 const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question-div')
 const answerButtonsElement = document.getElementById('answer-section')
 
 let RandomlySelectedQuestion, currentQuestionNumber,  score= 2;
-
+EndButton.classList.add('hide')
 startButton.addEventListener('click', startQuiz)
 nextButton.addEventListener('click', () => {
   currentQuestionNumber++
@@ -99,8 +100,8 @@ function chooseOption(e) {
   if (RandomlySelectedQuestion.length > currentQuestionNumber + 1) {
     nextButton.classList.remove('hide')
   } else {
-    startButton.innerText = 'Restart'
-    startButton.classList.remove('hide')
+   
+    EndButton.classList.remove('hide')
   }
   if(true===questions[0].answers[1].correct){
     score++
