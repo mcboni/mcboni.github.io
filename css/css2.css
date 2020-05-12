@@ -1,0 +1,211 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+nav{
+    text-align: center;
+    
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li{
+    display: inline;
+ 
+}
+
+nav a{
+    font-weight: 700;
+    font-size: .8em;
+    margin: 2em;
+
+}
+#fff2{
+    color: black;
+    font-family: 'Lora', serif;
+}
+#fff{
+    color: black;
+    font-family: 'Lora', serif;
+}
+.navbar-nav{
+   align-items: center;
+}
+header{
+    border-bottom: .01em solid rgb(139, 134, 134);
+    padding: 0;
+ 
+}
+.vertical-line{
+    display: inline-block;
+    border-left: 5px solid #fff;
+    height: 50%;
+    margin-left: 4em;
+    margin-top: 3em;
+    color: cornsilk;
+    font-family: 'Playfair Display', serif;
+}
+
+h6{
+    width: 50%;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    line-height: 0.1em;
+    margin-top:0em ;
+    margin-left:17em;
+}
+
+h6 span{
+    background: #fff;
+    padding:0 10px;
+}
+
+#small{
+    font-size: .7em;
+    font-style: italic;
+
+}
+
+.img-section{
+    background-image: linear-gradient(#FB7137,rgb(5, 75, 97));
+    height: 30em;
+    width: 100%;
+    margin-top: 0em;
+    margin-bottom: 3em;
+
+}
+
+.main_pic{
+    margin-left: 30em;
+    display: inline-block;
+}
+
+.main_pic2{
+  margin-bottom: 3em;
+}
+
+#submit{
+  
+    border: none;
+    background-color: #FB7137;
+    color: white;
+    font-weight: 700;
+    margin-left: 0em;
+    height:3.9em;
+    min-width: 12em;
+    margin-top: -5em;
+   
+}
+#intro{
+    margin-top: 5em;
+    margin-left: -5em;
+    word-spacing: .5em;
+    font-weight: 600;
+    font-size: 1.9;
+}
+#intro_p{
+    margin-left:-6em;
+    font-family: 'Lora', serif;
+    line-height: 3em;
+   max-width: 25em;
+   font-size: 1.2em;
+}
+#name{
+    font-family: 'Lobster', cursive;
+    font-size: 2em;
+}
+  
+#story{
+    font-family: 'Dancing Script', cursive;
+}
+
+#sub1{
+    font-weight: 700;
+    margin-top: 5em;
+    color: #fff;
+    font-family: 'Lora', serif;
+    
+  }
+  #sub2{
+    max-width: 15em;
+    margin-left: 16em;
+    margin-top: 1em;
+    color: #fff;
+    font-family: 'Lora', serif;
+  }
+  
+  .subscribe{
+    height: 25em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-size: cover;
+}
+
+.form_section{
+    margin-top: 0em;
+    background-image: url("bg_trial.png") !important;
+}
+
+.email{
+    background-color: #979998;
+}
+#submit2{
+  
+    border: none;
+    background-color: #FB7137;
+    color: white;
+    font-weight: 700;
+    margin-left: 0em;
+    height:3.9em;
+    min-width: 12em;
+    margin-top: 5em;
+   
+}
+
+.form-control2{
+    background-color: #e2e8f0;
+    min-width: 20em;
+    margin-left: 0em;
+    margin-top: 12em;
+    height: 3.9em;
+    border: 0 solid #e2e8f0;
+  }
+  
+
+  .mini_content{
+    height: 5em;
+    margin-top: 3em;
+    margin-bottom: 10em;
+
+}
+
+.card-img-top{
+    width: 100%;
+    height: 13em;
+    
+  }
+
+  #link{
+    color: black;
+    font-weight: 700;
+  }
+
+  .card-text{
+    font-family: 'Indie Flower', cursive;
+  }
+
+  .lp{
+    font-family: 'Lora', serif;
+  }
+
+.footer{
+    background-color:#FB7137 ;
+    margin-top: 5em;
+}
+
+  
