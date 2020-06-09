@@ -1,0 +1,1360 @@
+.img-section{
+   
+    background-size: cover;
+    height: 39em;
+    width: 102%;
+    margin-top: 0em;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#cd-text{
+  font-weight: 700;
+  
+}
+header{
+  
+  background-color:#CEE27D;
+}
+#fff{
+  color: black;
+ margin: 2em;
+ font-size: 1em;
+}
+.foot-spacing{
+  margin-bottom: 2em;
+}
+
+.navbar-toggler-icon {
+background-image: url("menu.png") !important;
+}
+
+#fff2{
+  color: black;
+}
+
+nav{
+  text-align: center;
+  
+}
+
+nav ul{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li{
+  display: inline-block;
+  padding: 1.5em;
+}
+
+nav a{
+  font-weight: 700;
+  padding: 10px 5px;
+  font-size: .8em;
+}
+
+.dropdown {
+  float: left;
+  
+
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  color: black;
+ margin: 2em;
+ font-size: 1em;
+ font-weight: 700;
+  border: none;
+  outline: none;
+  padding:0;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin-top: 4em; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+ opacity: .5;
+  transition: all .5s ease-in-out;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  min-height: 10em;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+ 
+  text-decoration: none;
+  display: block;
+  text-align: left;
+ 
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#myVideo {
+  position: absolute;
+  margin-top: -25em;
+  width: 101%;
+  min-height: 1em;
+ margin-left: -50.5em;
+  z-index: -1;
+
+}
+
+#eko{
+    margin-left: 0em;
+    color: white;
+    font-size:3.3em;
+    font-family: playfair sans-serif;
+ 
+
+}
+#eko2{
+    margin-left: 0em;
+    color: whitesmoke;
+    font-size: larger;
+
+}
+#reads{
+  color: #F9C234;
+}
+.contact-form{
+    background-color:#CEE27D;
+    height: 15em;
+    margin-bottom: 2em;
+}
+#card_image{
+  width: 250px;
+  height: 250px;
+}
+
+
+.form-control2{
+    background-color: #e2e8f0;
+    min-width: 25em;
+    margin-left: 2.5em;
+    margin-top: 2em;
+    height: 2.5em;
+    border: 0 solid #e2e8f0;
+  }
+  #sub{
+      margin-top: 1em;
+      font-weight: 700;
+      color: white;
+  }
+  #sub_text{
+      color: white;
+      font-size: .9em;
+      line-height: 2em;
+ 
+  }
+
+  #submit2{
+  
+    border: none;
+    background-color: #00b37c;
+    color: white;
+    font-weight: 700;
+    margin-left: 2em;
+    height:2.5em;
+    min-width: 12em;
+   }
+
+   input{
+       text-indent: 1em;
+   }
+
+   .card1{
+    margin-bottom: 1em;
+}
+
+.card{
+ width:15em; 
+ height: 13em;
+ border: none;
+ 
+ 
+}
+.card2{
+ width:15em; 
+ height: 13em;
+ border: none;
+
+ 
+}
+.card-text{
+  margin-left: -1.2em;
+}
+
+
+.flip-card {
+    background-color: transparent;
+    width: 250px;
+    height: 250px;
+    perspective: 1000px;
+    margin-bottom: 5em;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+ 
+    background:repeating-linear-gradient(0deg, hsla(83,49%,5%,0.1) 0px, hsla(83,49%,5%,0.1) 50px,transparent 50px, transparent 100px),repeating-linear-gradient(90deg, hsla(83,49%,5%,0.1) 0px, hsla(83,49%,5%,0.1) 50px,transparent 50px, transparent 100px),linear-gradient(90deg, hsl(89,81%,42%),hsl(89,81%,42%));
+    
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color:#00b37c;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .render{
+    margin-bottom: 3em;
+  }
+  
+  .render p::after {
+      position: absolute;
+      width: 12em;
+      height: 2px;
+      bottom: 0px;
+      left: 0px;
+      right: 0px;
+      content: "";
+      background: green;
+      margin: 0px auto;
+  }
+  .render2 h6::after {
+    position: absolute;
+    width: 8em;
+    height: 1.7px;
+    bottom: 185px;
+    left: 0px;
+    right: 0px;
+    content: "";
+    background: white;
+    margin: 0px auto;
+}
+.render2a h6::after {
+  position: absolute;
+  width: 8em;
+  height: 1.7px;
+  bottom: 230px;
+  left: 0px;
+  right: 0px;
+  content: "";
+  background: white;
+  margin: 0px auto;
+}
+  #flipped1{
+      font-size: .9em;
+      margin-top: 3em;
+      max-width: 21em;
+     
+  }
+  #flipped1b{
+    font-size: .7em;
+    margin-top: 4em;
+    opacity: .7;
+    
+}
+#flipped1c{
+    font-size: 1em;
+    font-weight: 700;
+    color:white; 
+}
+#card-image:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 10px 18px #8888;
+  }
+  .card-image-top:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 10px 18px #8888;
+  }
+  #time1{
+    min-width: 5em;
+    color: black;
+    font-size: .7em;
+  }
+  .bottom-left2{
+    color: black;
+    position: absolute;
+    bottom: -3em;
+    left: 1em;
+    font-weight: 700;
+    background-color: rgba(233, 233, 208, 0.3);
+    padding: .4em;
+  }
+  
+#link{
+    color: black;
+    font-weight: 700;
+
+  }
+
+  .btn{
+      background-color:#CEE27D;
+      color: white;
+      margin-left: -1.2em;
+    
+  }
+  .foot{
+    background-color: #76A21E;
+    margin-top: 15em;
+  }
+  #footer-text{
+    color: white;
+  }
+  #footer-text2{
+    color: #F9C234;
+  }
+  #excite{
+    color: white;
+    font-style: oblique;
+    max-width: 15em;
+  }
+
+  #excite2{
+    color: white;
+    font-style: oblique;
+    margin-bottom: 1.5em;
+  }
+
+  #lp{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 2em;
+  }
+  #lp2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+.img-thumbnail{
+  width: 30%;
+  margin-bottom:.8em;
+}
+
+#img-text{
+  color: white;
+  display: inline;
+  margin-left: 1em;
+  
+}
+
+#rights{
+  color: #bbb;
+  margin-top: 2em;
+}
+#l1{
+  margin-bottom: 3em;
+  color:white;
+  font-style: oblique;
+  text-decoration: none;
+}
+
+#l1:hover{
+color: #F9C234;
+}
+
+.info{
+  margin-top: 3em;
+}
+#logo2{
+  margin-top: 1em;
+}
+
+  @media (min-width:200px) and (max-width:359px){
+    body{
+      overflow-x: hidden;
+    }
+    .img-section{
+      background-size: cover;
+      height: 25em;
+      width: 111%;
+      margin-top: 0em;
+      align-items: center;
+  
+  }
+#eko{
+  font-size: 1.5em;
+}
+#eko2{
+  font-size: .9em;
+}
+
+#sub{
+  font-size: 1em;
+}
+
+.form-control2{
+  background-color: #e2e8f0;
+  min-width: 18em;
+  margin-left: 0em;
+  margin-top: .3em;
+  height: 2.5em;
+  border: 0 solid #e2e8f0;
+}
+#submit2{
+  margin-top:.5em;
+  margin-left:-.5em;
+  width: 5em;
+}
+#talking{
+  font-size: .8em;
+  font-weight: 700;
+}
+#learn{
+  font-size: .7em;
+}
+#main_post{
+  font-size: .9em;
+  margin-top: -3.9em;
+  font-weight: 700;
+}
+#lesson{
+  font-size: .7em;
+}
+.card{
+  margin-bottom: 8em;
+  max-width: 18em;
+}
+.bottom-left2{
+  color: black;
+  position: absolute;
+  bottom: 0em;
+  left: 1em;
+  font-weight: 700;
+  background-color: rgba(233, 233, 208, 0.3);
+  padding: .4em;
+}
+#link{
+  color: black;
+  font-weight: 700;
+  font-size: .78em;
+
+}
+.foot{
+  margin-top: 0em;
+}
+
+#footer-text{
+  font-size: 1.3em;
+  text-align: center;
+}
+
+#excite{
+  font-size: .7em;
+text-align: center;
+min-width: 25em;
+}
+#lp{
+  margin-top: 0em;
+}
+#img-text{
+  font-size: .7em;
+}
+#l1{
+  font-size: .8em;
+}
+  }
+  @media (min-width:360px) and (max-width:400px){
+    body{
+      overflow-x: hidden;
+    }
+    .img-section{
+      background-size: cover;
+      height: 25em;
+      width: 111%;
+      margin-top: 0em;
+      align-items: center;
+  
+  }
+#eko{
+  font-size: 1.5em;
+}
+#eko2{
+  font-size: .9em;
+}
+
+#sub{
+  font-size: 1em;
+}
+.flip-card{
+  margin-left: 1em;
+ }
+
+.form-control2{
+  background-color: #e2e8f0;
+  min-width: 18em;
+  margin-left: 0em;
+  margin-top: .3em;
+  height: 2.5em;
+  border: 0 solid #e2e8f0;
+}
+#submit2{
+  margin-top:.5em;
+  margin-left:-.5em;
+  width: 5em;
+}
+#talking{
+  font-size: .9em;
+  font-weight: 700;
+}
+#learn{
+  font-size: .7em;
+}
+#main_post{
+  font-size: .9em;
+  margin-top: -3.9em;
+  font-weight: 700;
+}
+#lesson{
+  font-size: .7em;
+}
+.card{
+  margin-bottom: 8em;
+  max-width: 18em;
+  margin-left: 1.3em;
+}
+.bottom-left2{
+  color: black;
+  position: absolute;
+  bottom: 0em;
+  left: 1em;
+  font-weight: 700;
+  background-color: rgba(233, 233, 208, 0.3);
+  padding: .4em;
+}
+#link{
+  color: black;
+  font-weight: 700;
+  font-size: .78em;
+
+}
+.foot{
+  margin-top: 0em;
+}
+
+#footer-text{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#excite{
+  font-size: .75em;
+text-align: center;
+min-width: 25em;
+}
+#lp{
+  margin-top: 0em;
+}
+#img-text{
+  font-size: .7em;
+}
+#l1{
+  font-size: .8em;
+}
+  }
+
+  
+  @media(min-width:401px) and (max-width:500px){
+    body{
+      overflow-x: hidden;
+    }
+    .img-section{
+      background-size: cover;
+      height: 25em;
+      width: 111%;
+      margin-top: 0em;
+      align-items: center;
+  
+  }
+#eko{
+  font-size: 1.7em;
+}
+.flip-card{
+  margin-left: 3em;
+ }
+#eko2{
+  font-size: .9em;
+}
+
+#sub{
+  font-size: 1em;
+}
+
+.form-control2{
+  background-color: #e2e8f0;
+  min-width: 18em;
+  margin-left: 0em;
+  margin-top: .3em;
+  height: 2.5em;
+  border: 0 solid #e2e8f0;
+}
+#submit2{
+  margin-top:.5em;
+  margin-left:-.5em;
+  width: 5em;
+}
+#talking{
+  font-size: .9em;
+  font-weight: 700;
+}
+#learn{
+  font-size: .7em;
+}
+#main_post{
+  font-size: .9em;
+  margin-top: -3.9em;
+  font-weight: 700;
+}
+#lesson{
+  font-size: .7em;
+}
+.card{
+  margin-bottom: 8em;
+  max-width: 18em;
+  margin-left: 3em;
+}
+.bottom-left2{
+  color: black;
+  position: absolute;
+  bottom: 0em;
+  left: 1em;
+  font-weight: 700;
+  background-color: rgba(233, 233, 208, 0.3);
+  padding: .4em;
+}
+#link{
+  color: black;
+  font-weight: 700;
+  font-size: .78em;
+
+}
+.foot{
+  margin-top: 0em;
+}
+
+#footer-text{
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#excite{
+  font-size: .8em;
+text-align: center;
+min-width: 25em;
+}
+
+#img-text{
+  font-size: .8em;
+}
+#l1{
+  font-size: .8em;
+}
+  }
+  @media(min-width:501px) and (max-width:600px){
+    body{
+      overflow-x: hidden;
+    }
+    .img-section{
+      background-size: cover;
+      height: 25em;
+      width: 111%;
+      margin-top: 0em;
+      align-items: center;
+  
+  }
+  .contact-form{
+    background-color:#F9C234;
+    width: 110%;
+    margin-bottom: 2em;
+    height: auto;
+}
+.flip-card{
+ margin-left: 8em;
+}
+#eko{
+  font-size: 1.7em;
+}
+#eko2{
+  font-size: .9em;
+}
+
+#sub{
+  font-size: 1em;
+}
+
+.form-control2{
+  background-color: #e2e8f0;
+  min-width: 3em;
+  margin-left: 1em;
+  margin-top: .3em;
+  margin-bottom: 1.1em;
+  height: 2.5em;
+  border: 0 solid #e2e8f0;
+}
+#submit2{
+  margin-top:.5em;
+  margin-left:1em;
+  min-width: 3em;
+}
+#talking{
+  font-size: .9em;
+  font-weight: 700;
+}
+#learn{
+  font-size: .7em;
+}
+#main_post{
+  font-size: .9em;
+  margin-top: -3.9em;
+  font-weight: 700;
+}
+#lesson{
+  font-size: .7em;
+}
+.card{
+  margin-bottom: 8em;
+  max-width: 18em;
+margin-left: 8.5em;
+}
+.bottom-left2{
+  color: black;
+  position: absolute;
+  bottom: 0em;
+  left: 1em;
+  font-weight: 700;
+  background-color: rgba(233, 233, 208, 0.3);
+  padding: .4em;
+}
+#link{
+  color: black;
+  font-weight: 700;
+  font-size: .78em;
+
+}
+.foot{
+  margin-top: 0em;
+}
+
+#footer-text{
+  font-size: 1.7em;
+  text-align: center;
+}
+
+#excite{
+  font-size: .8em;
+text-align: center;
+min-width: 25em;
+}
+
+#img-text{
+  font-size: .5em;
+}
+#l1{
+  font-size: .8em;
+}
+.img-thumbnail{
+  max-width: 15%;
+}
+  }
+
+  @media(min-width:601px) and (max-width:700px){
+   
+      body{
+        overflow-x: hidden;
+      }
+      .img-section{
+        background-size: cover;
+        height: 25em;
+        width: 111%;
+        margin-top: 0em;
+        align-items: center;
+    
+    }
+    .contact-form{
+      background-color:#F9C234;
+      width: 110%;
+      margin-bottom: 2em;
+      height: auto;
+  }
+  .flip-card{
+   margin-left: 8em;
+  }
+  #eko{
+    font-size: 1.7em;
+  }
+  #eko2{
+    font-size: .9em;
+  }
+  
+  #sub{
+    font-size: 1em;
+  }
+  
+  .form-control2{
+    background-color: #e2e8f0;
+    min-width: 3em;
+    margin-left: 1em;
+    margin-top: .3em;
+    margin-bottom: 1.1em;
+    height: 2.5em;
+    border: 0 solid #e2e8f0;
+  }
+  #submit2{
+    margin-top:.5em;
+    margin-left:1em;
+    min-width: 3em;
+  }
+  #talking{
+    font-size: .9em;
+    font-weight: 700;
+  }
+  #learn{
+    font-size: .7em;
+  }
+  #main_post{
+    font-size: .9em;
+    margin-top: -3.9em;
+    font-weight: 700;
+  }
+  #lesson{
+    font-size: .7em;
+  }
+  .card{
+    margin-bottom: 8em;
+    max-width: 18em;
+  margin-left: 7em;
+  }
+  .bottom-left2{
+    color: black;
+    position: absolute;
+    bottom: 0em;
+    left: 1em;
+    font-weight: 700;
+    background-color: rgba(233, 233, 208, 0.3);
+    padding: .4em;
+  }
+  #link{
+    color: black;
+    font-weight: 700;
+    font-size: .78em;
+  
+  }
+  .foot{
+    margin-top: 0em;
+  }
+  
+  #footer-text{
+    font-size: 1.7em;
+    text-align: center;
+  }
+  
+  #excite{
+    font-size: .8em;
+  text-align: center;
+  min-width: 25em;
+  }
+  
+  #img-text{
+    font-size: .5em;
+  }
+  #l1{
+    font-size: .8em;
+  }
+  .img-thumbnail{
+    max-width: 15%;
+  }
+    }
+  @media (min-width:701px) and (max-width:750px){
+      body{
+        overflow-x: hidden;
+      }
+      .img-section{
+        background-size: cover;
+        height: 25em;
+        width: 111%;
+        margin-top: 0em;
+        align-items: center;
+    
+    }
+    .contact-form{
+      background-color:#F9C234;
+      width: 110%;
+      margin-bottom: 2em;
+      height: auto;
+  }
+  .flip-card{
+   margin-left: 8em;
+  }
+  #eko{
+    font-size: 1.7em;
+  }
+  #eko2{
+    font-size: .9em;
+  }
+  
+  #sub{
+    font-size: 1em;
+  }
+  
+  .form-control2{
+    background-color: #e2e8f0;
+    min-width: 3em;
+    margin-left: 1em;
+    margin-top: .3em;
+    margin-bottom: 1.1em;
+    height: 2.5em;
+    border: 0 solid #e2e8f0;
+  }
+  #submit2{
+    margin-top:.5em;
+    margin-left:1em;
+    min-width: 3em;
+  }
+  #talking{
+    font-size: .9em;
+    font-weight: 700;
+  }
+  #learn{
+    font-size: .7em;
+  }
+  #main_post{
+    font-size: .9em;
+    margin-top: -3.9em;
+    font-weight: 700;
+  }
+  #lesson{
+    font-size: .7em;
+  }
+  .card{
+    margin-bottom: 8em;
+    max-width: 18em;
+  margin-left: 7em;
+  }
+  .bottom-left2{
+    color: black;
+    position: absolute;
+    bottom: 0em;
+    left: 1em;
+    font-weight: 700;
+    background-color: rgba(233, 233, 208, 0.3);
+    padding: .4em;
+  }
+  #link{
+    color: black;
+    font-weight: 700;
+    font-size: .78em;
+  
+  }
+  .foot{
+    margin-top: 0em;
+  }
+  
+  #footer-text{
+    font-size: 1.7em;
+    text-align: center;
+  }
+  
+  #excite{
+    font-size: .8em;
+  text-align: center;
+  min-width: 25em;
+  }
+  
+  #img-text{
+    font-size: .6em;
+  }
+  #l1{
+    font-size: .8em;
+  }
+  .img-thumbnail{
+    max-width: 15%;
+  }
+    }
+
+  @media (min-width:751px) and (max-width:800px){
+    body{
+      overflow-x: hidden;
+    }
+    .img-section{
+      background-size: cover;
+      height: 25em;
+      width: 111%;
+      margin-top: 0em;
+      align-items: center;
+  
+  }
+  .contact-form{
+    background-color:#F9C234;
+    width: 110%;
+    margin-bottom: 2em;
+    height: auto;
+}
+#eko{
+  font-size: 1.7em;
+}
+#eko2{
+  font-size: .9em;
+}
+
+#sub{
+  font-size: 1em;
+}
+
+.form-control2{
+  background-color: #e2e8f0;
+  min-width: 3em;
+  margin-left: 1em;
+  margin-top: .3em;
+  margin-bottom: 1.1em;
+  height: 2.5em;
+  border: 0 solid #e2e8f0;
+}
+#submit2{
+  margin-top:.5em;
+  margin-left:1em;
+  min-width: 3em;
+}
+#talking{
+  font-size: .9em;
+  font-weight: 700;
+}
+#learn{
+  font-size: .7em;
+}
+#main_post{
+  font-size: .9em;
+  margin-top: -3.9em;
+  font-weight: 700;
+}
+#lesson{
+  font-size: .7em;
+}
+.card{
+  margin-bottom: 8em;
+  max-width: 12em;
+margin-left: 1em;
+}
+.bottom-left2{
+  color: black;
+  position: absolute;
+  bottom: 5em;
+  left: 1em;
+  font-weight: 700;
+  background-color: rgba(233, 233, 208, 0.3);
+  padding: .4em;
+}
+#link{
+  color: black;
+  font-weight: 700;
+  font-size: .78em;
+
+}
+.foot{
+  margin-top: 0em;
+}
+
+#footer-text{
+  font-size: 1.7em;
+ 
+}
+
+#excite{
+font-size: .8em;
+min-width: 25em;
+}
+
+#img-text{
+  font-size: .6em;
+}
+#l1{
+  font-size: .8em;
+}
+.img-thumbnail{
+  max-width: 25%;
+}
+#card_image{
+  height: 250px;
+  width: 200px;
+}
+.flip-card{
+  height: 250px;
+  width: 200px;
+}
+  }
+
+  @media (min-width:801px) and (max-width:909px){
+    body{
+      overflow-x: hidden;
+    }
+    .img-section{
+      background-size: cover;
+      height: 25em;
+      width: 111%;
+      margin-top: 0em;
+      align-items: center;
+  
+  }
+  .contact-form{
+    background-color:#F9C234;
+    width: 110%;
+    margin-bottom: 2em;
+    height: auto;
+}
+#eko{
+  font-size: 1.7em;
+}
+#eko2{
+  font-size: .9em;
+}
+
+#sub{
+  font-size: 1em;
+}
+
+.form-control2{
+  background-color: #e2e8f0;
+  min-width: 3em;
+  margin-left: 1em;
+  margin-top: .3em;
+  margin-bottom: 1.1em;
+  height: 2.5em;
+  border: 0 solid #e2e8f0;
+}
+#submit2{
+  margin-top:.5em;
+  margin-left:1em;
+  min-width: 3em;
+}
+#talking{
+  font-size: .9em;
+  font-weight: 700;
+}
+#learn{
+  font-size: .7em;
+}
+#main_post{
+  font-size: .9em;
+  margin-top: -3.9em;
+  font-weight: 700;
+}
+#lesson{
+  font-size: .7em;
+}
+.card{
+  margin-bottom: 8em;
+  max-width: 12em;
+margin-left: 1em;
+}
+.bottom-left2{
+  color: black;
+  position: absolute;
+  bottom: 5em;
+  left: 1em;
+  font-weight: 700;
+  background-color: rgba(233, 233, 208, 0.3);
+  padding: .4em;
+}
+#link{
+  color: black;
+  font-weight: 700;
+  font-size: .78em;
+
+}
+.foot{
+  margin-top: 0em;
+}
+
+#footer-text{
+  font-size: 1.7em;
+ 
+}
+
+#excite{
+font-size: .8em;
+min-width: 25em;
+}
+
+#img-text{
+  font-size: .6em;
+}
+#l1{
+  font-size: .8em;
+}
+.img-thumbnail{
+  max-width: 25%;
+}
+#card_image{
+  height: 250px;
+  width: 200px;
+}
+.flip-card{
+  height: 250px;
+  width: 200px;
+}
+  }
+
+  @media (min-width: 910px) and (max-width: 1211px){
+    body{
+      overflow-x: hidden;
+    }
+    .img-section{
+      background-size: cover;
+      height: 25em;
+      width: 111%;
+      margin-top: 0em;
+      align-items: center;
+  
+  }
+  .contact-form{
+    background-color:#F9C234;
+    width: 110%;
+    margin-bottom: 2em;
+    height: auto;
+}
+#eko{
+  font-size: 1.7em;
+}
+#eko2{
+  font-size: .9em;
+}
+
+#sub{
+  font-size: 1em;
+}
+
+.form-control2{
+  background-color: #e2e8f0;
+  min-width: 3em;
+  margin-left: 1em;
+  margin-top: .3em;
+  margin-bottom: 1.1em;
+  height: 2.5em;
+  border: 0 solid #e2e8f0;
+}
+#submit2{
+  margin-top:.5em;
+  margin-left:1em;
+  min-width: 3em;
+}
+#talking{
+  font-size: .9em;
+  font-weight: 700;
+}
+#learn{
+  font-size: .7em;
+}
+#main_post{
+  font-size: .9em;
+  margin-top: -3.9em;
+  font-weight: 700;
+}
+#lesson{
+  font-size: .7em;
+}
+.card{
+  margin-bottom: 8em;
+  max-width: 12em;
+margin-left: 1em;
+}
+.bottom-left2{
+  color: black;
+  position: absolute;
+  bottom: 5em;
+  left: 1em;
+  font-weight: 700;
+  background-color: rgba(233, 233, 208, 0.3);
+  padding: .4em;
+}
+#link{
+  color: black;
+  font-weight: 700;
+  font-size: .78em;
+
+}
+.foot{
+  margin-top: 0em;
+}
+
+#footer-text{
+  font-size: 1.7em;
+ 
+}
+
+#excite{
+font-size: .8em;
+min-width: 25em;
+}
+
+#img-text{
+  font-size: .6em;
+}
+#l1{
+  font-size: .8em;
+}
+.img-thumbnail{
+  max-width: 35%;
+}
+#card_image{
+  height: 250px;
+  width: 200px;
+}
+.flip-card{
+  height: 250px;
+  width: 200px;
+  margin-left: 3em;
+}
+  }
+
