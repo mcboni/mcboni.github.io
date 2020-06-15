@@ -1,27 +1,26 @@
 .img-section{
-   
-    background-size: cover;
-    height: 39em;
-    width: 102%;
-    margin-top: 0em;
-    align-items: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("blog_main.png") !important;
+  background-size: cover;
+  height: 39em;
+  width: 102%;
+  margin-top: 0em;
+  align-items: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
-
 #cd-text{
   font-weight: 700;
   
 }
 header{
   
-  background-color:#CEE27D;
+  background-color:#da4302;
 }
 #fff{
-  color: black;
+  color: white;
  margin: 2em;
  font-size: 1em;
 }
@@ -34,7 +33,7 @@ background-image: url("menu.png") !important;
 }
 
 #fff2{
-  color: black;
+  color: white;
 }
 
 nav{
@@ -117,19 +116,11 @@ nav a{
   display: block;
 }
 
-#myVideo {
-  position: absolute;
-  margin-top: -25em;
-  width: 101%;
-  min-height: 1em;
- margin-left: -50.5em;
-  z-index: -1;
 
-}
 
 #eko{
     margin-left: 0em;
-    color: white;
+    color: black;
     font-size:3.3em;
     font-family: playfair sans-serif;
  
@@ -137,7 +128,7 @@ nav a{
 }
 #eko2{
     margin-left: 0em;
-    color: whitesmoke;
+    color: black;
     font-size: larger;
 
 }
@@ -145,7 +136,7 @@ nav a{
   color: #F9C234;
 }
 .contact-form{
-    background-color:#CEE27D;
+    background-color:#ff5700;
     height: 15em;
     margin-bottom: 2em;
 }
@@ -245,7 +236,7 @@ nav a{
   
   .flip-card-front {
  
-    background:repeating-linear-gradient(0deg, hsla(83,49%,5%,0.1) 0px, hsla(83,49%,5%,0.1) 50px,transparent 50px, transparent 100px),repeating-linear-gradient(90deg, hsla(83,49%,5%,0.1) 0px, hsla(83,49%,5%,0.1) 50px,transparent 50px, transparent 100px),linear-gradient(90deg, hsl(89,81%,42%),hsl(89,81%,42%));
+    background:repeating-linear-gradient(90deg, rgba(227, 137, 41,0.5) 0px, rgba(227, 137, 41,0.5) 30px,transparent 30px, transparent 60px),repeating-linear-gradient(0deg, 	rgba(255,87,0) 0px, rgba(227, 137, 41,0.5) 30px,transparent 30px, transparent 60px),linear-gradient(90deg, hsl(353,58%,37%),hsl(353,58%,37%));
     
     color: black;
   }
@@ -268,7 +259,7 @@ nav a{
       left: 0px;
       right: 0px;
       content: "";
-      background: green;
+      background: orange;
       margin: 0px auto;
   }
   .render2 h6::after {
@@ -334,19 +325,19 @@ nav a{
   }
   
 #link{
-    color: black;
+    color: white;
     font-weight: 700;
 
   }
 
   .btn{
-      background-color:#CEE27D;
+      background-color:#00b37c;
       color: white;
       margin-left: -1.2em;
     
   }
   .foot{
-    background-color: #76A21E;
+    background-color: #ff9a00;
     margin-top: 15em;
   }
   #footer-text{
