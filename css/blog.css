@@ -17,7 +17,7 @@
 }
 header{
   
-  background-color:#da4302;
+  background-color:#ff5700;;
 }
 #fff{
   color: white;
@@ -29,7 +29,7 @@ header{
 }
 
 .navbar-toggler-icon {
-background-image: url("menu.png") !important;
+background-image: url("Vector.png") !important;
 }
 
 #fff2{
@@ -120,7 +120,7 @@ nav a{
 
 #eko{
     margin-left: 0em;
-    color: black;
+    color: white;
     font-size:3.3em;
     font-family: playfair sans-serif;
  
@@ -128,7 +128,7 @@ nav a{
 }
 #eko2{
     margin-left: 0em;
-    color: black;
+    color: white;
     font-size: larger;
 
 }
@@ -383,7 +383,7 @@ nav a{
 }
 
 #rights{
-  color: #bbb;
+  color: black;
   margin-top: 2em;
 }
 #l1{
