@@ -1,3 +1,7 @@
+body,html{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .img-section{
   background-image: url("blog_main.png") !important;
   background-size: cover;
