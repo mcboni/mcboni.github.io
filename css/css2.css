@@ -221,6 +221,7 @@ input{
   .lp{
     font-family: 'EB Garamond', serif;
   }
+  
 
   .footer {
     background-color: #5085A5;
@@ -286,4 +287,104 @@ div.polaroid {
   #vid{
     font-family: 'EB Garamond', serif;
   }
+
+  .foot{
+    background-color: #5085A5;
+    margin-top: 15em;
+  }
+  #site{
+    text-decoration: none;
+    color: #000;
+  }
+  .foot-spacing{
+    margin-bottom: 1.5em;
+ 
+  }
+  
+  #footer-text{
+    color: white;
+  }
+  #footer-text2{
+    color: #F9C234;
+  }
+  #excite{
+    color: white;
+    font-style: oblique;
+    max-width: 19em;
+    font-size: .6em;
+    text-align: center;
+  }
+
+  #excite2{
+    color: white;
+    font-style: oblique;
+    margin-bottom: 1.5em;
+  }
+
+  #lp{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0em;
+
+  }
+  .tweets{
+    margin-top: 1em;
+  }
+  
+  #lp2{
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+.img-thumbnail{
+  width: 30%;
+  margin-bottom:.8em;
+}
+
+#img-text{
+  color: white;
+  display: inline;
+  margin-left: 1em;
+  font-size: .7em;
+  
+}
+
+#rights{
+  color: #fff;
+  margin-top: 2em;
+  font-size: .7em;
+}
+.text_rights{
+  background-color: #5085A5;
+}
+#strong_links{
+  color:#000 ;
+}
+#l1{
+  margin-bottom: 3em;
+  color:white;
+  font-style: oblique;
+  text-decoration: none;
+  font-size: .7em;
+}
+
+#l1:hover{
+color: #F9C234;
+}
+
+.info{
+  margin-top: 1.9em;
+  line-height: .1em;
+}
+#logo2{
+  margin-top: 1em;
+  width: 25%;
+
+}
+#logo{
+  max-width: 50%;
+  margin-left: -7em;
+}
+
   
